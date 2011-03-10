@@ -1,1 +1,164 @@
-@CHARSET "UTF-8";
+/*----------------OGÓLNE----------------*/
+a.button { 
+	display: inline-block; 
+	padding: 7px 9px; 
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height:1; 
+	color: #fff; 
+	text-shadow: 1px 1px 0 #777; 
+	background: #01c8ec; 
+	white-space: nowrap; 
+	overflow: visible; 
+	cursor: pointer; 
+	text-decoration: none; 
+	border: 1px solid #0194af; 
+	border-style: outset;
+	outline: none; 
+	position: relative; 
+}
+
+.link-right{
+	text-align: right;
+}
+/*----------------HEADER----------------*/
+header {
+	height: 329px;
+	background:url(../images/droga-tlo.png) repeat-x;	
+}
+#head-wrapper {
+	margin: auto;
+	width: 980px;
+	padding-top: 20px;
+}
+/*----------------LOGO----------------*/
+#main-logo
+{
+	position: absolute;
+	z-index: 10;
+}
+#head-wrapper h1
+{
+	text-indent: -9999px;
+	float: left;
+}
+
+#head-wrapper h1 a
+{
+	background: url(../images/logo.png);
+	display: block;
+	text-indent: -9999px;
+	height:67px;
+	width: 358px;
+	z-index: 1;
+}
+/*----------------USER PANEL----------------*/
+#login-user-panel {
+	float: right;
+	width: 300px;
+	color: #fff;
+	text-align: right;
+}
+
+#login-user-panel a{
+	color: #fff;
+	margin: 0 0 10px 5px;
+}
+/*----------------NAWIGACJA----------------*/
+#head-wrapper nav
+{
+	margin: 10px 0;
+	width: 980px;
+	float: right;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+}
+#head-wrapper nav ul
+{
+	margin: 0;
+	float: left;
+}
+#head-wrapper nav li
+{
+	height: 36px;
+	margin: 10px 0;
+	border-right: 1px solid #333;
+	float: left;
+	position: relative;
+}
+#head-wrapper nav li a.first
+{
+	margin-left: 0;
+	border: 0;	
+}
+#head-wrapper nav li a
+{
+	display: block;
+	position: relative;
+	top: -12px;
+	height: 24px;
+	color: #fff;
+	text-decoration: none;
+	padding: 20px 12px;
+	
+}
+#head-wrapper nav li a:hover
+{
+	border: 0;
+	background: url(../images/menu-bg.png) center;
+}
+/*----------------NAV SEARCH FORM----------------*/
+#search-form 
+{
+	padding: 12px 0 0;
+	width: 300px;
+	float: right;
+}
+
+#search-form input
+{
+	background: url(../images/lupa_ico.gif) #fff no-repeat 97% 50%;
+	width: 205px;
+	height: 28px;
+	padding: 0 10px;
+	font-size: 13px;
+	float: left;
+	border: 0;
+}
+
+#search-form p
+{
+	width: 70px;
+	float: right;
+}
+/*----------------WSPÓLNA DROGA----------------*/
+#wspolna-droga 
+{
+	background: url(../images/droga.png) no-repeat;
+	width: 630px;
+	height: 162px;
+	clear: both;	
+	color: #fff;
+	padding-top: 10px;
+	padding-right: 350px;
+}
+
+#wspolna-droga h2 
+{
+	font-size: 24px;
+	font-family: Georgia, "Times New Roman", Times, serif;	
+	margin-bottom: 10px;
+}
+
+#wspolna-droga p
+{
+	font-size: 16px;
+	line-height: 24px;
+}
+
+#wspolna-droga a
+{
+	color: #fff;	
+}
