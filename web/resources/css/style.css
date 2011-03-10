@@ -55,7 +55,7 @@ header {
 /*----------------USER PANEL----------------*/
 #login-user-panel {
 	float: right;
-	width: 300px;
+	width: 400px;
 	color: #fff;
 	text-align: right;
 }
@@ -120,9 +120,9 @@ header {
 #search-form input
 {
 	background: url(../images/lupa_ico.gif) #fff no-repeat 97% 50%;
-	width: 205px;
+	width: 190px;
 	height: 28px;
-	padding: 0 10px;
+	padding: 0 30px 0 10px;
 	font-size: 13px;
 	float: left;
 	border: 0;
